@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+#fightBtn{
+    padding: 30px 60px;
+    border:none;
+    background:green;
+    color:white;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin: 40px;
+    cursor:pointer;
+
+}
+
+.experience-container{
+    padding: 20px;
+    text-align: center;
+}
+
+#experienceProgress{
+    height: 40px;
+    background:green;
+}
